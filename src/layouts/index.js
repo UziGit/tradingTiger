@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-import { Button } from 'antd-mobile';
+import '../assets/reset.less';
 
 class Index extends React.Component {
   render() {
-    return <div>{this.props.children}</div>;
+    return <div className='layout'>{this.props.children}</div>;
   }
   componentDidMount() {
     axios.get('/api/h5/index/data').then(response => {
