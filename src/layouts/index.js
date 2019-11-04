@@ -1,8 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-// const Index = props => {
-//   return <div>{props.children}</div>;
-// };
+import { Button } from 'antd-mobile';
 
 class Index extends React.Component {
   render() {
